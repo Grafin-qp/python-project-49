@@ -42,19 +42,19 @@ poetry install
 **Запуск игр**
 После установки вы можете запустить любую из игр, используя следующие команды:
 
-Команда brain-even;
+Команда "brain-even";
 link to asciinema file for even game: https://asciinema.org/a/EetRmQpuz24SzyApxyjaUP31m
 
-Команда brain-calc;
+Команда "brain-calc";
 link to asciinema file for calc game: https://asciinema.org/a/rxlnNkAPdmRDfqyzKwBVgDHoD
 
-Команда brain-gcd;
+Команда "brain-gcd";
 link to asciinema file for gcd game: https://asciinema.org/a/FYOmzm5e6D5Z4Z6Oz6q3XLi2a
 
-Команда brain-progression;
+Команда "brain-progression";
 link to asciinema file for progression game: https://asciinema.org/a/ReTvFCsMuHNvxR0arj44AtdXY
 
-Команда brain-prime;
+Команда "brain-prime";
 link to asciinema file for prime game: https://asciinema.org/a/YFRnSEJamyAunltcSSUVHpJJz
 
 Проверка хекслета ругается, тк при выводе сообщений я дополнительно настроил отступы между абзацами, поделив информацию на смысловые блоки. Я не хочу убирать отсупы, тк с ними информация становится более читаемой, хоть и в ущерб проверке.
