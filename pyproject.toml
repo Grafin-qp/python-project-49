@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Проект 'Игры на Python' представляет собой коллекцию различных текстовых игр, реализованных на языке программирования Python. Эти игры разработаны для развлечения и развития навыков при решении разнообразных задач."
 authors = ["Grafin-qp <ivan_khamidullin@icloud.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -17,14 +18,26 @@ prompt = "^0.4.1"
 flake8 = "^6.1.0"
 wemake-python-styleguide = "^0.18.0"
 
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"]
+repository = "https://github.com/Grafin-qp/python-project-49"
+
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
-brain-prime = "brain_games.scripts.brain_prime:main"
+brain-games = "brain_games.scripts.games.brain_games:main"
+brain-even = "brain_games.scripts.games.brain_even:main"
+brain-calc = "brain_games.scripts.games.brain_calc:main"
+brain-gcd = "brain_games.scripts.games.brain_gcd:main"
+brain-progression = "brain_games.scripts.games.brain_progression:main"
+brain-prime = "brain_games.scripts.games.brain_prime:main"

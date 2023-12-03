@@ -3,12 +3,14 @@
 
 import random
 
+
 def question_asker(question):
+    """Display a question."""
     print(f'Question: {question}')
 
 
 def game_play(name, game_logic, game_rules):
-    """main function for game_even"""
+    """Main function for game_even"""
     print(game_rules)
     counter = 0
     while counter < 3:
@@ -25,4 +27,8 @@ def game_play(name, game_logic, game_rules):
         
         if counter == 3:
             print(f"\nCongratulations, {name}!")
+
+# Пример использования функции game_play:
+# game_play("Player"\или функцию из приветствия, game_logic_functio, переменную с правилами)
+# Замените game_logic на фактическую функцию логики игры
 
