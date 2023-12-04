@@ -22,7 +22,7 @@ def prime_game_logic():
         else:
             counter += 1
 
-        if random_num < 2:
+        if random_num < 1:
             correct_answer = 'no'
         elif random_num == 2:
             correct_answer = 'yes'
