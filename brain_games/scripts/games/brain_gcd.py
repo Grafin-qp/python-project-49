@@ -21,8 +21,9 @@ def gcd_game_logic():
         divisible = divider
         divider = cur_amount
 
+    quest_nums = f"{random_num1} {random_num2}"
     correct_answer = str(divisible)
-    return nums, correct_answer
+    return quest_nums, correct_answer
 
 
 def main():
