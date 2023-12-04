@@ -42,3 +42,10 @@ brain-calc = "brain_games.scripts.games.brain_calc:main"
 brain-gcd = "brain_games.scripts.games.brain_gcd:main"
 brain-progression = "brain_games.scripts.games.brain_progression:main"
 brain-prime = "brain_games.scripts.games.brain_prime:main"
+
+
+[tool.flake8]
+ignore = "E501, W503"  # Игнорируемые ошибки
+exclude = [
+    "__init__.py",
+]
