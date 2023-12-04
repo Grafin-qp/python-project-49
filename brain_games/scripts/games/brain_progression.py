@@ -1,5 +1,5 @@
 
-### This code is for the progression game###
+# This code is for the progression game
 
 import random
 from ...cli import welcome_user
@@ -10,7 +10,7 @@ def progression_game_logic():
     """
     Generate an arithmetic progression and determine the missing number.
     Returns:
-        tuple: A tuple containing the formatted progression string and the correct answer.
+        tuple: containing the formatted progress. string and the answer.
     """
     random_length = random.randint(5, 10)
     random_num = random.randint(0, 100)
@@ -43,4 +43,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
