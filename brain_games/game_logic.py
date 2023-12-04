@@ -1,8 +1,6 @@
 
 # This is a main file with logic of all brain games.
 
-import random
-
 
 def question_asker(question):
     """Display a question."""
@@ -21,14 +19,14 @@ def game_play(name, game_logic, game_rules):
             print('\nCorrect!\n')
             counter += 1
         else:
-            print(f"\n'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            correct_message = "Correct answer was '{correct_answer}'."
+            print(f"\n'{answer}' is wrong answer ;(. {correct_message}")
             print(f"Let's try again, {name}!")
             break
-        
+
         if counter == 3:
             print(f"\nCongratulations, {name}!")
 
 # Пример использования функции game_play:
-# game_play("Player"\или функцию из приветствия, game_logic_functio, переменную с правилами)
+# game_play("Player"\или функцию из приветствия, game_logic_functio, правила)
 # Замените game_logic на фактическую функцию логики игры
-
