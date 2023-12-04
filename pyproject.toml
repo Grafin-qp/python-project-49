@@ -22,6 +22,7 @@ repository = "https://github.com/Grafin-qp/python-project-49"
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
+flake8 = "^6.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
