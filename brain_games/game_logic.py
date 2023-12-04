@@ -21,8 +21,8 @@ def game_play(name, game_logic, game_rules):
             print('\nCorrect!\n')
             counter += 1
         else:
-            print(f"\n'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'")
-            print(f"Let's try again, {name}")
+            print(f"\n'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {name}!")
             break
         
         if counter == 3:
